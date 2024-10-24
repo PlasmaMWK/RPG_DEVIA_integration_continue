@@ -4,7 +4,7 @@
 
 Création d'un petit jeu de role dans le cardre d'un TP sur les tests d'intégrations.
 
-# On a choisi d'utilisé GitHub comme notre outil de CI par ce que
+# On a choisi d'utiliser GitHub comme outil de CI car :
 
 ### Points positifs :
 - il est gratuit
