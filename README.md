@@ -1,12 +1,23 @@
 # RPG_DEVIA_integration_continue
 
-### MAS Aymeric et EVANS Chris
+## MAS Aymeric et EVANS Chris
 
 Création d'un petit jeu de role dans le cardre d'un TP sur les tests d'intégrations.
 
-On a choisi d'utilisé CircleCI comme notre outil de CI par ce que
+# On a choisi d'utilisé GitHub comme notre outil de CI par ce que
+
+### Points poistifs :
 - il est gratuit
-- sa s'intégre facilement avec GitHub
-- il y a des fonctionnalités avancées
-- c'est compatible avec plusieurs plateformes
-- il y a de la documentation et un communauté active
+- outils de clonnage simples
+- il y a des fonctionnalitées avancées
+- donne accès à GH Copilot
+- il y a de la documentation et une communauté active
+- Plateforme Cloud (pas de risque de pertes de sauvegardes)
+- Bonne interface (UI/UX)
+- -Possiblité de partage
+- Très complet
+- Utilisation de git
+
+### Points négatifs:
+- code non sécurisé (non interne)
+- Trop complet (facile de s'y perdre pour un débutant)
