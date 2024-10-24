@@ -7,5 +7,8 @@ class Tests(unittest.TestCase):
         personnage = Personnage()
         self.assertEqual(personnage.hp, 10)
 
+    def test_attaquant_enleve_1hp(self):
+        self.assertEqual(personnage.hp, 9)
+
 if __name__ == "__main__":
     unittest.main()
