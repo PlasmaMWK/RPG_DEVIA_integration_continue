@@ -6,7 +6,7 @@ Création d'un petit jeu de role dans le cardre d'un TP sur les tests d'intégra
 
 # On a choisi d'utilisé GitHub comme notre outil de CI par ce que
 
-### Points poistifs :
+### Points positifs :
 - il est gratuit
 - outils de clonnage simples
 - il y a des fonctionnalitées avancées
