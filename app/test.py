@@ -11,6 +11,13 @@ class Tests(unittest.TestCase):
         personnage = Personnage()
         personnage.recevoir_degats()
         self.assertEqual(personnage.hp, 9)
+    
+    def test_personnage_est_mort(self):
+        personnage = Personnage()
+        for _ in range(10):
+            personnage.recevoir_degats()
+        self.assertEqual(personnage.hp, 0)
+        self.assertTrue(personnage.est_mort())
 
     
 
