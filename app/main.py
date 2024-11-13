@@ -9,3 +9,8 @@ class Personnage:
         if self.hp <= 0:
             return True
         return False
+    
+    def est_vivant(self):
+        if self.hp > 0:
+            return True
+        return False
