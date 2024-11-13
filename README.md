@@ -7,14 +7,17 @@ Création d'un petit jeu de role dans le cardre d'un TP sur les tests d'intégra
 # On a choisi d'utiliser GitHub comme outil de CI car :
 
 ### Points positifs :
-- il est gratuit
-- outils de clonnage simples (Github Desktop permet un clonnage simple sans utiliser d'application tierce comme TortoiseGit par exemple)
-- il y a des fonctionnalitées avancées pour la gestion de projets
-- donne accès à GH Copilot
-- il y a de la documentation et une communauté active
+- Il est gratuit
+- Intégration native avec les dépôts GitHub, simplifiant la configuration
+- Écosystème riche avec de nombreux templates et actions réutilisables
+- Flexibilité des workflows via YAML
+- Il y a de la documentation et une communauté active
 - Bonne interface claire et intuitive (UI/UX)
-- Plateforme Cloud de CI n°1 pour les projets open-source
+
 
 ### Points négatifs:
-- code non sécurisé (non interne)
+- Code non sécurisé pour des projets confidentiels (outils non interne donc possibilté de fuite des données)
 - Peut être trop complet (facile de s'y perdre pour un débutant)
+- Limites d’utilisation gratuites pour les grandes équipes
+- Moins de flexibilité pour les projets hébergés hors GitHub
+- Moins adapté aux exigences très complexes de CI
