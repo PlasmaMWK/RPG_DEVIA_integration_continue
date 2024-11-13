@@ -4,3 +4,8 @@ class Personnage:
 
     def recevoir_degats(self):
         self.hp -= 1
+
+    def est_mort(self):
+        if self.hp <= 0:
+            return True
+        return False
