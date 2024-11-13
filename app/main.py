@@ -18,6 +18,10 @@ class Personnage:
     def est_blesse(self):
         if self.hp < 10 and self.hp > 0:
             return True
+<<<<<<< HEAD
         return False
     
     #Coucou c'est un test 4
+=======
+        return False
+>>>>>>> 3e5da20 ([GREEN] test est blesse OK)
