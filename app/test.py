@@ -19,6 +19,10 @@ class Tests(unittest.TestCase):
         self.assertEqual(personnage.hp, 0)
         self.assertTrue(personnage.est_mort())
 
+    def test_personnage_nest_pas_mort(self):
+        personnage = Personnage()
+        self.assertTrue(personnage.est_vivant())
+
     
 
 if __name__ == "__main__":
