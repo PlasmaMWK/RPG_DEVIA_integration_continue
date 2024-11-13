@@ -14,3 +14,8 @@ class Personnage:
         if self.hp > 0:
             return True
         return False
+    
+    def est_blesse(self):
+        if self.hp < 10 and self.hp > 0:
+            return True
+        return False
