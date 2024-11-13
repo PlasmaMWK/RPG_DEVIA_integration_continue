@@ -8,16 +8,13 @@ Création d'un petit jeu de role dans le cardre d'un TP sur les tests d'intégra
 
 ### Points positifs :
 - il est gratuit
-- outils de clonnage simples
-- il y a des fonctionnalitées avancées
+- outils de clonnage simples (Github Desktop permet un clonnage simple sans utiliser d'application tierce comme TortoiseGit par exemple)
+- il y a des fonctionnalitées avancées pour la gestion de projets
 - donne accès à GH Copilot
 - il y a de la documentation et une communauté active
-- Plateforme Cloud (pas de risque de pertes de sauvegardes)
-- Bonne interface (UI/UX)
-- -Possiblité de partage
-- Très complet
-- Utilisation de git
+- Bonne interface claire et intuitive (UI/UX)
+- Plateforme Cloud de CI n°1 pour les projets open-source
 
 ### Points négatifs:
 - code non sécurisé (non interne)
-- Trop complet (facile de s'y perdre pour un débutant)
+- Peut être trop complet (facile de s'y perdre pour un débutant)
