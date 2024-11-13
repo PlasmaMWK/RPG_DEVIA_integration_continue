@@ -23,5 +23,10 @@ class Tests(unittest.TestCase):
         personnage = Personnage()
         self.assertTrue(personnage.est_vivant())
 
+    def test_personnage_est_blesse(self):
+        personnage = Personnage()
+        personnage.recevoir_degats()
+        self.assertTrue(personnage.est_blesse())
+
 if __name__ == "__main__":
     unittest.main()
