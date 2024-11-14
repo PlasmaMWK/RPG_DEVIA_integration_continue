@@ -20,4 +20,4 @@ class Personnage:
             return True
         return False
     
-    #Coucou c'est un test 4
+    #Coucou c'est un test 5
