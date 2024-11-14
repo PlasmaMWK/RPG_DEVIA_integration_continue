@@ -3,7 +3,10 @@ name: Commit, Test, Push and Merge
 on:
   push:
     branches:
-      - dev  # Déclenche l'action quand il y a un push sur la branche dev
+      - dev
+
+permissions:
+  contents: write
 
 jobs:
   test-and-merge:
@@ -12,6 +15,8 @@ jobs:
     steps:
       - name: Checkout repository
         uses: actions/checkout@v3
+        with:
+          ref: dev
 
       - name: Set up Python
         uses: actions/setup-python@v4
@@ -20,7 +25,7 @@ jobs:
 
       - name: Install dependencies
         run: |
-          pip install -r requirements.txt  # Assurez-vous d'avoir un fichier requirements.txt ou adaptez cette commande
+          pip install -r requirements.txt
 
       - name: Get last commit message
         id: get_commit_msg
@@ -42,7 +47,7 @@ jobs:
         if: success() && steps.test.outcome == 'success'
         run: |
           git checkout main
-          git merge dev -m "$LAST_COMMIT_MSG"
+          git merge dev -m "${{ env.LAST_COMMIT_MSG || 'Merge dev into main' }}"
           git push origin main
 
       - name: Create failure branch
