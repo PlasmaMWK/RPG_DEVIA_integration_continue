@@ -1,4 +1,4 @@
-name: Commit, Test, Push and Merge
+name: python-publish
 
 on:
   push:
