@@ -1,4 +1,4 @@
-from main import Personnage
+from src.main import Personnage
 
 import unittest
 
