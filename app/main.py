@@ -1,6 +1,12 @@
 class Personnage:
     def __init__(self):
-        self.hp = 10
+        self.__hp = 10
 
-    def recevoir_degats(self):
-        self.hp -= 1
+    def hp(self):
+        return self.__hp
+
+    def recevoir_degats(self, attaquant):
+        self.__hp -= 1
+
+    def est_mort(self):
+        return self.__hp == 0
